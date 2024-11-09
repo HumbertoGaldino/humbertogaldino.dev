@@ -4,12 +4,12 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #121214;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #121214;
     --foreground: #ededed;
   }
 }
@@ -18,4 +18,26 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.underline-link {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.underline-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 4px;
+  border-radius: 4px;
+  background-color: yellow;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 0 0 10px yellow
+}
+
+.underline-link:hover::after {
+  width: 100%;
+  transition: width 0.7s ease-in-out;
 }

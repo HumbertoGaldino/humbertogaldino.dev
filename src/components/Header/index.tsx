@@ -1,0 +1,23 @@
+import Link from 'next/link'
+import Logo from '../Logo'
+import {content} from './content'
+
+export default function Header() {
+    const linkClass = 'relative underline-link pb-2 uppercase'
+    
+    return (
+        <div className="flex items-center justify-between space-x-2 text-small w-full">
+            <Logo />
+            <nav className="flex space-x-5 font-bold items-center">
+                {content.map(({ label, url }) => (
+                    <li className='list-none' key={label}>
+                        <Link href={url} className={linkClass}>
+                            {label}
+                        </Link>
+                    </li>
+                ))}
+            </nav>
+        </div>
+    )
+}
+
