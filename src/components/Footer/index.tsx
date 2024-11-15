@@ -5,10 +5,10 @@ import { FiMail } from 'react-icons/fi';
 const Footer = () => {
   const year = new Date().getFullYear();
 
-  const aClass = 'm-extra-small p-2 font-bold leading-none text-mostarda border-2 border-[#222222] rounded hover:border-mostarda transition-all duration-300 ease-in-out hover:shadow-[0_0_0_2px_background,_0_0_0_4px_yellow,_0_0_15px_yellow] cursor-pointer'
+  const aClass = 'm-extra-small p-2 font-bold leading-none text-yellow border-2 border-[#222222] rounded hover:border-yellow transition-all duration-300 ease-in-out hover:shadow-[0_0_0_2px_#121214,_0_0_0_4px_yellow,_0_0_15px_yellow] cursor-pointer'
 
   return (
-    <footer className='flex items-center justify-between w-full mt-superLarge p-small pt-3 pb-large text-small text-gray border-t-2 border-[#222222cc] sm:flex-col md:flex-col lg:flex-row lg:max-w-container'>
+    <footer className='flex items-center justify-between w-full p-small text-extraSmall text-gray border-t-2 border-[#222222cc] sticky top-[100vh] sm:flex-col md:flex-col lg:flex-row lg:max-w-container'>
       <div>
         © {year} - Feito com 💛 by <span className='font-bold text-white'>Humberto Galdino</span>
       </div>

@@ -12,10 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'midnight': '#121063',
-        'mostarda': '#ffb647',
+        'yellow': '#ffff00',
         'gray': '#999999',
-        'green': '#50fa7b',
-        'purple': '#896ceb',
       },
       spacing: {
         'extraSmall': '0.5rem',
@@ -27,6 +25,7 @@ const config: Config = {
         'containerLarge': '99.2rem',
       },
       fontSize: {
+        'extraSmall': '1rem',
         'small': '1.4rem',
         'medium': '1.8rem',
         'large': '2.4rem',
