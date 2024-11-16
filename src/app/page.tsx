@@ -143,14 +143,15 @@ const skills = [
 export default function Home() {
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] min-w-full items-center justify-items-center lg:pb-20  sm:p-11">
+    <>
+      <div className="grid grid-rows-[20px_1fr_20px] min-w-full h-min items-center justify-items-center sm:p-5 sm:pt-8 pb-0">
         <main className="grid grid-cols-2 gap-8 row-start-2 items-center min-w-full max-h-full sm:items-start">
           <div className="flex flex-col min-w-full h-full justify-center items-center">
-            <h1 className="text-7xl font-bold text-right text-almostWhite">Dev Web<br/>Full Stack</h1>
+            <h1 className="text-7xl font-bold text-right text-almostWhite">Dev Web<br />Full Stack</h1>
             <h2 className="text-3xl font-medium text-right text-moonLanding italic"><span className='text-yellow'>&lt;</span> Humberto Galdino <span className='text-yellow'>/&gt;</span></h2>
 
             <div className='flex items-center justify-center w-full mt-8 text-white'>
-              <div className='flex flex-row items-center justify-center max-w-full h-10 '>            
+              <div className='flex flex-row items-center justify-center max-w-full h-10 '>
                 <Swiper
                   modules={[Autoplay]}
                   autoplay={{ delay: 0, disableOnInteraction: false }}
@@ -158,15 +159,15 @@ export default function Home() {
                   slidesPerView={6}
                   speed={5000}
                 >
-                  {skills.map(({id, html}) => (
+                  {skills.map(({ id, html }) => (
                     <SwiperSlide key={id} className='w-10'>
                       {html}
                     </SwiperSlide>
                   ))}
-                </Swiper>              
-              </div>              
+                </Swiper>
+              </div>
             </div>
-          
+
           </div>
           <div className="min-w-full h-full justify-center items-center">
             <Image
@@ -177,10 +178,53 @@ export default function Home() {
               alt="Profile Picture"
               style={{ width: '110%' }}
 
-              className="relative bottom-10"
-            />
+              className="relative bottom-10" />
           </div>
         </main>
-    </div>
+      </div>
+
+      <div className="grid grid-rows-[20px_1fr_20px] min-w-full h-max items-center justify-items-center p-5">
+        <section id="about" className='min-w-full grid gap-8 row-start-2 bg-almostWhite items-center min-w-full max-h-full sm:items-start ruido rounded-2xl'>
+          <div className='relative text-center select-none'>
+              <h1
+                id="sobre"
+                className=' absolute -top-[60px] left-3.5 text-almostWhite text-7xl font-black'
+              >
+                sobre mim . sobre mim
+               </h1>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-2 row-start-2 items-center justify-center min-w-full max-h-full sm:items-start p-6">
+            <div className="min-w-full h-full justify-center items-center">
+              <Image
+                src="/about.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                alt="Profile Picture"
+                style={{ width: '110%' }}
+
+                className="relative bottom-10" />
+            </div>
+
+            <div className="flex flex-col min-w-full h-full p-5 pt-0 text-blackJournal">
+              <h2 className="text-xl font-medium text-right">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
+              <p 
+                className="text-base font-medium text-justify "
+              >
+                tenho 29 anos e sou desenvolvedor web full stack. Possuo experiência em JavaScript, 
+                React.js, Node.js, Express.js, Sequelize, Next.js, Prisma, Electron, HTML5, CSS3, Bootstrap, Photoshop, Figma, 
+                Sass, Styled Components, Tailwind, Versionamento de código (Git), GitHub, OracleDB, MongoDB, 
+                PostgreSQL, MySQL, Jenkins, API Rest e Metodologias Ágeis(Scrum).
+              </p>
+              <br/>
+
+              <q className='text-right italic'>Eu não sou um produto de minhas circunstâncias. Eu sou um produto de minhas decisões</q>
+              <p className='text-right italic font-bold'>Stephen Covey</p>
+            </div>
+          </div>
+        </section>
+      </div>
+  </>
   )
 }

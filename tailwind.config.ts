@@ -12,12 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'yellow': '#ffff00',
-        'gray': '#999999',
-        'almostWhite':'#efefef',
-        'Cape Hope':'#d7d7d7',
-        'gray75':'#bfbfbf',
+        'almostWhite':'#e0e0e0',
         'moonLanding':'#a7a7a7',
-        'gray56':'#8f8f8f'
+        'blackJournal':'#282828'
       },
       spacing: {
         'extraSmall': '0.5rem',

@@ -4,6 +4,10 @@ export const content = [
       url: '/',
     },
     {
+      label: 'Sobre mim',
+      url:'#sobre'
+    },
+    {
       label: 'Portfólio',
       url: '/projects',
     },
