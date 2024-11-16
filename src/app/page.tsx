@@ -170,12 +170,14 @@ export default function Home() {
           </div>
           <div className="min-w-full h-full justify-center items-center">
             <Image
-              src="/profile-1.png"
+              src="/1.png"
               width={0}
               height={0}
               sizes="100vw"
               alt="Profile Picture"
-              style={{ width: '80%' }}
+              style={{ width: '110%' }}
+
+              className="relative bottom-10"
             />
           </div>
         </main>
