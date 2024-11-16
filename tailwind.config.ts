@@ -11,9 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'midnight': '#121063',
         'yellow': '#ffff00',
         'gray': '#999999',
+        'almostWhite':'#efefef',
+        'Cape Hope':'#d7d7d7',
+        'gray75':'#bfbfbf',
+        'moonLanding':'#a7a7a7',
+        'gray56':'#8f8f8f'
       },
       spacing: {
         'extraSmall': '0.5rem',
@@ -23,14 +27,6 @@ const config: Config = {
         'superLarge': '4rem',
         'container': '80rem',
         'containerLarge': '99.2rem',
-      },
-      fontSize: {
-        'extraSmall': '1rem',
-        'small': '1.4rem',
-        'medium': '1.8rem',
-        'large': '2.4rem',
-        'extraLarge': '3.4rem',
-        'superLarge': '4.8rem',
       },
     },
   },

@@ -6,7 +6,7 @@ export default function Header() {
     const linkClass = 'relative underline-link pb-2 uppercase'
     
     return (
-        <div className="flex items-center justify-between space-x-2 text-small w-full">
+        <div className="flex items-center justify-between space-x-2 text-lg w-full text-indigo-100">
             <Logo />
             <nav className="flex space-x-5 font-bold items-center">
                 {content.map(({ label, url }) => (

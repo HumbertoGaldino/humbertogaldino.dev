@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className='flex items-center justify-between w-full p-small text-extraSmall text-gray border-t-2 border-[#222222cc] sticky top-[100vh] sm:flex-col md:flex-col lg:flex-row lg:max-w-container'>
       <div>
-        © {year} - Feito com 💛 by <span className='font-bold text-white'>Humberto Galdino</span>
+        © {year} - Feito com 💛 by <span className='font-bold text-indigo-100'>Humberto Galdino</span>
       </div>
 
       <div className='flex items-center gap-3'>
