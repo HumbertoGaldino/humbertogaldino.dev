@@ -8,7 +8,7 @@ export default function Main(){
                 <main className="grid grid-cols-2 gap-8 row-start-2 items-center min-w-full max-h-full sm:items-start">
                     <div className="flex flex-col min-w-full h-full justify-center items-center">
                         <h1 className="text-7xl font-bold text-right text-almostWhite">Dev Web<br />Full Stack</h1>
-                        <h2 className="text-3xl font-medium text-right text-moonLanding italic"><span className='text-yellow'>&lt;</span> Humberto Galdino <span className='text-yellow'>/&gt;</span></h2>
+                        <h2 className="text-3xl font-medium text-right text-white italic"><span className='text-yellow drop-shadow-[_0_0_5px_yellow]'>&lt;</span> Humberto Galdino <span className='text-yellow drop-shadow-[_0_0_5px_yellow]'>/&gt;</span></h2>
 
                         <div className='flex items-center justify-center w-full mt-8 text-white'>
                         <div className='flex flex-row items-center justify-center max-w-full h-10 '>

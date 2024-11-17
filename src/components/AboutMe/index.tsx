@@ -48,21 +48,37 @@ export default function AboutMe(){
                         />
 
 
-                        <div className="p-5 pt-0 text-blackJournal text-right">
+                        <div className="p-5 pt-2 text-blackJournal text-right">
                             <h2 className="text-xl font-medium">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
-                            <p 
-                                className="text-base font-medium text-justify "
-                            >
-                                tenho {calculaIdade()} anos e sou desenvolvedor web full stack. Possuo experiência em JavaScript, 
-                                React.js, Node.js, Express.js, Sequelize, Next.js, Prisma, Electron, HTML5, CSS3, Bootstrap, Photoshop, Figma, 
-                                Sass, Styled Components, Tailwind, Versionamento de código (Git), GitHub, OracleDB, MongoDB, 
-                                PostgreSQL, MySQL, Jenkins, API Rest e Metodologias Ágeis(Scrum).
+                            <p className="text-base font-medium text-justify ">
+                                tenho {calculaIdade()} anos e sou desenvolvedor web full stack, bacharel em Ciência da
+                                Computação e especializado em Desenvolvimento Web Full Stack. Sou apaixonado por tecnologia
+                                desde a infância e me dediquei a me profissionalizar em TI, conquistando uma bolsa integral
+                                pelo Prouni e complementando minha formação com bootcamps renomados como o da Digital House
+                                e da Rocketseat.
                             </p>
-                            <br/>
+                            <p className="text-base font-medium text-justify indent-10">
+                                Minha experiência inclui tecnologias como JavaScript, React.js, Node.js, Sequelize, Prisma,
+                                Next.js, e ferramentas como Figma, Photoshop e Git. Também trabalho com bancos de dados como
+                                MongoDB, PostgreSQL e MySQL, além de seguir metodologias ágeis para entregar soluções eficientes
+                                e bem estruturadas.
+                            </p>
 
-                            <q className='italic text-sm'>Eu não sou um produto de minhas circunstâncias. Eu sou um produto de minhas decisões</q>
-                            <p className='italic font-bold text-sm'>Stephen Covey</p>
+                            <p className="text-base font-medium text-justify indent-10">
+                                Acredito no aprendizado contínuo e no trabalho colaborativo para criar aplicações
+                                modernas e intuitivas. Estou sempre em busca de desafios que me permitam crescer como
+                                profissional e contribuir de forma significativa para os projetos em que atuo.
+                            </p>                            
+                            
+                            <br/>
                         </div>
+
+                        <div className='col-span-2 text-blackJournal text-center'>
+                            <q className='italic text-lg'>Eu não sou um produto de minhas circunstâncias.<br/>Eu sou um produto de minhas decisões</q>
+                            <p className='italic font-bold text-base'>Stephen Covey</p>
+                        </div>
+
+                        
                     </div>
                 </section>
             </div>
