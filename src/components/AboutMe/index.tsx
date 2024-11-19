@@ -26,7 +26,7 @@ export default function AboutMe(){
         <>
             <div className="grid grid-rows-[20px_1fr_20px] min-w-full h-max items-center justify-items-center p-5">
                 <section id="about" className='min-w-full grid gap-8 row-start-2 bg-almostWhite items-center sm:items-start ruido rounded-2xl'>
-                    <div className='relative text-center select-none'>
+                    <div className='relative text-center select-none text-#dddddd'>
                         <h1
                             id="sobre"
                             className=' absolute -top-[60px] left-3.5 text-almostWhite text-7xl font-black'
@@ -42,39 +42,29 @@ export default function AboutMe(){
                             height={0}
                             sizes="100vw"
                             alt="Profile Picture"
-                            style={{ width: '100%' }}
+                            style={{ width: '90%' }}
 
                             className='pl-5'
                         />
 
 
-                        <div className="p-5 pt-2 text-blackJournal text-right">
+                        <div className="pr-5 pt-2 text-blackJournal text-right">
                             <h2 className="text-xl font-medium">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
                             <p className="text-base font-medium text-justify ">
-                                tenho {calculaIdade()} anos e sou desenvolvedor web full stack, bacharel em Ciência da
-                                Computação e especializado em Desenvolvimento Web Full Stack. Sou apaixonado por tecnologia
-                                desde a infância e me dediquei a me profissionalizar em TI, conquistando uma bolsa integral
-                                pelo Prouni e complementando minha formação com bootcamps renomados como o da Digital House
-                                e da Rocketseat.
-                            </p>
-                            <p className="text-base font-medium text-justify indent-10">
-                                Minha experiência inclui tecnologias como JavaScript, React.js, Node.js, Sequelize, Prisma,
-                                Next.js, e ferramentas como Figma, Photoshop e Git. Também trabalho com bancos de dados como
-                                MongoDB, PostgreSQL e MySQL, além de seguir metodologias ágeis para entregar soluções eficientes
-                                e bem estruturadas.
+                                tenho {calculaIdade()} anos e sou <mark className='italic rounded-md'>bacharel</mark> em <mark className='italic rounded-md'>Ciência da </mark>
+                                <mark className='italic rounded-md'>Computação</mark>, com formação conquistada através de uma <mark className='italic rounded-md'>bolsa integral</mark> pelo <mark className='italic rounded-md'>Prouni. </mark>
+                                <mark className='italic rounded-md'> Especialista em desenvolvimento web full stack</mark> em tecnologias como <mark className='italic rounded-md'>JavaScript</mark>, <mark className='italic rounded-md'>React.js</mark>, <mark className='italic rounded-md'>Node.js</mark> e <mark className='italic rounded-md'> Next.js</mark>,
+                                também possuo experiência com bancos de dados como <mark className='italic rounded-md'>MongoDB</mark> e <mark className='italic rounded-md'>MySQL</mark>,
+                                além de ferramentas como <mark className='italic rounded-md'>Figma</mark>, <mark className='italic rounded-md'>Photoshop</mark>, <mark className='italic rounded-md'>Git</mark> e <mark className='italic rounded-md'>GitHub</mark>.
                             </p>
 
                             <p className="text-base font-medium text-justify indent-10">
-                                Acredito no aprendizado contínuo e no trabalho colaborativo para criar aplicações
-                                modernas e intuitivas. Estou sempre em busca de desafios que me permitam crescer como
-                                profissional e contribuir de forma significativa para os projetos em que atuo.
-                            </p>                            
+                                Valorizo o <mark className='italic rounded-md'>aprendizado contínuo</mark> e o <mark className='italic rounded-md'>trabalho colaborativo</mark> como pilares para criar <mark className='italic rounded-md'>soluções modernas</mark> e <mark className='italic rounded-md'>eficientes</mark>. Busco desafios que impulsionem meu <mark className='italic rounded-md'>crescimento profissional</mark> e permitam contribuir de forma significativa para o <mark className='italic rounded-md'>sucesso dos projetos</mark>.
+                            </p>           
                             
                             <br/>
-                        </div>
 
-                        <div className='col-span-2 text-blackJournal text-center'>
-                            <q className='italic text-lg'>Eu não sou um produto de minhas circunstâncias.<br/>Eu sou um produto de minhas decisões</q>
+                            <q className='italic text-base'>Eu não sou um produto de minhas circunstâncias. Eu sou um produto de minhas decisões</q>
                             <p className='italic font-bold text-base'>Stephen Covey</p>
                         </div>
 
