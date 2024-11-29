@@ -1,0 +1,30 @@
+/* .flip-card:hover .flip-card-inner {
+    
+} */
+
+.rotate{
+    transform: rotateY(-180deg);
+}
+
+.hidden{
+    backface-visibility: hidden;
+}
+
+.flip-card .back {
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+}
+
+.flip-card{
+    perspective: 1000px;
+}
+
+.front {
+    backface-visibility: hidden;
+}
+
+.flip-card-inner {
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
