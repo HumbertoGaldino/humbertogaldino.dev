@@ -31,7 +31,6 @@ body {
   background-position: center center;
 }
 
-
 .underline-link {
   @apply transition-all duration-300 ease-in-out;
 }
@@ -52,4 +51,21 @@ body {
 .underline-link:hover::after {
   width: 100%;
   transition: width 0.7s ease-in-out;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to{
+    opacity:1;
+    transform: translateX(0px);
+  }
+}
+
+.block{
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
 }
