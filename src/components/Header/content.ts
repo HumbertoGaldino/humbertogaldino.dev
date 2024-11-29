@@ -9,6 +9,6 @@ export const content = [
     },
     {
       label: 'Portfólio',
-      url: '/projects',
+      url: '/portfolio',
     },
   ];

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Skills from '../Skills'
+import SwiperSkills from '../SwiperSkills'
 
 export default function Main(){
     return(
@@ -12,7 +12,7 @@ export default function Main(){
 
                         <div className='flex items-center justify-center w-full mt-8 text-white'>
                         <div className='flex flex-row items-center justify-center max-w-full h-10 '>
-                            <Skills />
+                            <SwiperSkills />
                         </div>
                         </div>
 
