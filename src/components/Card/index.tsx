@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Card() {
 
-  const handleRotateCard = (id) => {
+  const handleRotateCard = (id: number) => {
     const flipCardInner = document.getElementById(`flip-card-inner-${id}`);
 
     flipCardInner?.classList.toggle('rotate');

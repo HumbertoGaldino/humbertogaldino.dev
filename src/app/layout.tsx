@@ -32,7 +32,7 @@ export default function RootLayout({
   return (    
     <html lang="pt-Br">
       <body
-        className={`${mainFontFamily.className || secondFontFamily.className} antialiased w-4/5 m-auto min-h-screen p-8`}
+        className={`${mainFontFamily.className || secondFontFamily.className} antialiased w-4/5 m-auto min-h-screen p-1 pt-5 md:p-8`}
       >
         <Header />
           {children}

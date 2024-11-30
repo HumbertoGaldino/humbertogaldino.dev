@@ -10,18 +10,20 @@ export default function Header() {
         <>
             <div className="flex items-center justify-between space-x-2 text-lg w-full text-indigo-100">
                 <Logo />
-                <nav className="flex space-x-5 font-bold items-center hidden md:flex">
-                    {content.map(({ label, url }) => (
-                        <li className='list-none' key={label}>
-                            <Link href={url} className={linkClass}>
-                                {label}
-                            </Link>
-                        </li>
-                    ))}
+                <nav className="flex space-x-5 font-bold items-center hidden lg:flex">
+                    {content.map(({ label, url } : {label:string, url:string}) => {
+                        return (
+                            <li className='list-none' key={label}>
+                                <Link href={url} className={linkClass}>
+                                    {label}
+                                </Link>
+                            </li>
+                        )
+                    })}
                 </nav>
             </div>
 
-            <div className=' sm:hidden'>
+            <div className='lg:hidden'>
                 <BurguerMenu/>
             </div>
         </>
