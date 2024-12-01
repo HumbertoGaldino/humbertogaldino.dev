@@ -29,14 +29,10 @@ export default function AboutMe(){
                     <div className='relative text-center select-none text-#dddddd'>
                         <h1
                             id="sobre"
-                            className=' absolute -top-[60px] left-3.5 text-almostWhite text-7xl hidden md:block font-black'
+                            className=' absolute -top-[30px] md:-top-[50px] lg:-top-[60px] left-3.5 text-almostWhite text-4xl md:text-6xl lg:text-7xl md:block font-black'
                         >
-                            sobre mim . <span className='hidden lg:inline-block'>sobre mim</span>
+                            sobre mim . <span className='hidden xl:inline-block'>sobre mim</span>
                         </h1>
-                    </div>
-
-                    <div className='text-center relative'>
-                        <h1 id="sobre" className='absolute -top-[65px] left-6 text-4xl font-bold text-almostWhite md:hidden'>sobre mim</h1>
                     </div>
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center lg:items-start p-6 pt-0 md:mt-5 mb-4">
@@ -46,14 +42,13 @@ export default function AboutMe(){
                             height={0}
                             sizes="100vw"
                             alt="Profile Picture"
-                            style={{ width: '100%' }}
-
-                            className='lg:pl-5 relative -top-6 lg:-top-0'
+                            
+                            className='lg:pl-5 w-full lg:w-11/12'
                         />
 
 
-                        <div className="lg:pr-5 lg:pl-5 lg:pt-2 mt-4 lg:mt-0 text-blackJournal text-right">
-                            <h2 className="sm:text-base text-sm font-medium">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
+                        <div className="lg:pr-5 lg:pl-5 xl:pl-0 lg:pt-2 mt-4 lg:mt-0 text-blackJournal text-right ">
+                            <h2 className="sm:text-base text-sm lg:text-2xl font-medium">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
                             <p className="sm:text-base text-xs font-medium text-justify">
                                 tenho {calculaIdade()} anos e sou <mark className='italic rounded-md'>bacharel</mark> em <mark className='italic rounded-md'>Ciência da </mark>
                                 <mark className='italic rounded-md'>Computação</mark>, com formação conquistada através de uma <mark className='italic rounded-md'>bolsa integral</mark> pelo <mark className='italic rounded-md'>Prouni. </mark>
