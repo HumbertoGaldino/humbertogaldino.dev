@@ -1,6 +1,6 @@
 # 💻 **Humberto Galdino - Portfólio Web**
 
-![Preview do Portfólio]((https://github.com/HumbertoGaldino/humbertogaldino.dev/blob/main/public/projeto1%20-%20Copia.png))
+![Preview do Portfólio](./public/projeto1.png)
 
 Bem-vindo ao repositório do meu portfólio! Este projeto foi desenvolvido para apresentar minhas habilidades, experiências e projetos como Desenvolvedor Web Full Stack.
 
