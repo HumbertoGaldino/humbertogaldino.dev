@@ -9,7 +9,7 @@ const Menu: React.FC<MenuProps> = ({ open }) => {
   return (
     <nav
       className={`flex flex-col justify-center bg-white transform ${
-        open ? "translate-x-0" : "translate-x-full"
+        open ? "translate-x-0" : "translate-x-full hidden"
       } h-screen text-left p-8 absolute top-0 right-0 z-[1000] transition-transform duration-300`}
     >
       <Link
