@@ -19,11 +19,12 @@ export default function Main(){
                     </div>
                     <div className="min-w-full h-full justify-center items-center order-1 lg:order-2">
                         <Image
-                            src="1.png"
+                            src="1.webp"
                             width={0}
                             height={0}
                             sizes="100vw"
                             alt="Profile Picture"
+                            placeholder='blur'
                             style={{ width: '110%' }}
 
                             className="mt-10 lg:mt-0 md:mb-10"
