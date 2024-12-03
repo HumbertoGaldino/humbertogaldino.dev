@@ -49,7 +49,7 @@ export default function AboutMe(){
 
 
                         <div className="lg:pr-5 lg:pl-5 xl:pl-0 lg:pt-2 mt-4 lg:mt-0 text-blackJournal text-right ">
-                            <h2 className="sm:text-base text-sm lg:text-2xl font-medium">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
+                            <h2 className="sm:text-base text-sm lg:text-xl font-medium">Olá, eu sou o <span className='italic font-bold'>Humberto Galdino</span></h2>
                             <p className="sm:text-base text-xs font-medium text-justify">
                                 tenho {calculaIdade()} anos e sou <mark className='italic rounded-md'>bacharel</mark> em <mark className='italic rounded-md'>Ciência da </mark>
                                 <mark className='italic rounded-md'>Computação</mark>, com formação conquistada através de uma <mark className='italic rounded-md'>bolsa integral</mark> pelo <mark className='italic rounded-md'>Prouni. </mark>
