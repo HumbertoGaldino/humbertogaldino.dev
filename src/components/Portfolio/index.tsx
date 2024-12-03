@@ -8,7 +8,11 @@ export default function Portfolio(){
             <div className="grid min-w-full items-center justify-items-center">
                 <div className='flex items-center justify-center relative mb-10'>
                     <Image 
-                        src="/2.png"
+<<<<<<< HEAD
+                        src="2.png"
+=======
+                        src="public/2.png"
+>>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
                         width={0}
                         height={0}
                         sizes="100vw"
@@ -24,7 +28,11 @@ export default function Portfolio(){
                     </h1>
                     <span className='font-["Licorice"] absolute z-50 right-0 text-9xl text-yellow blur-[2px] block'>Portfólio</span>
                     <Image 
-                        src="/3.png"
+<<<<<<< HEAD
+                        src="3.png"
+=======
+                        src="public/3.png"
+>>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
                         width={0}
                         height={0}
                         sizes="100vw"

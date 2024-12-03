@@ -19,7 +19,11 @@ export default function Main(){
                     </div>
                     <div className="min-w-full h-full justify-center items-center order-1 lg:order-2">
                         <Image
-                        src="/1.png"
+<<<<<<< HEAD
+                        src="1.png"
+=======
+                        src="public/1.png"
+>>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
                         width={0}
                         height={0}
                         sizes="100vw"
