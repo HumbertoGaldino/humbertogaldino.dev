@@ -19,22 +19,15 @@ export default function Main(){
                     </div>
                     <div className="min-w-full h-full justify-center items-center order-1 lg:order-2">
                         <Image
-<<<<<<< HEAD
-<<<<<<< HEAD
-                        src="1.png"
-=======
-                        src="public/1.png"
->>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
-=======
-                        src="public/1.png"
->>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        alt="Profile Picture"
-                        style={{ width: '110%' }}
+                            src="1.png"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            alt="Profile Picture"
+                            style={{ width: '110%' }}
 
-                        className="mt-10 lg:mt-0 md:mb-10" />
+                            className="mt-10 lg:mt-0 md:mb-10"
+                        />
                     </div>
                 </main>
             </div>
