@@ -3,7 +3,7 @@ import {nextJs, nodeJs, tailwind, typeScript} from '../HardSkills'
 export const content = [
     { 
       id:1,
-      img: 'projeto1.png',
+      img: 'projeto1.webp',
       title: "Portfólio",
       skills: [nodeJs ,nextJs, typeScript, tailwind, ],
       github: 'https://github.com/HumbertoGaldino/humbertogaldino.dev',
