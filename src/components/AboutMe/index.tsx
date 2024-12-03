@@ -24,8 +24,8 @@ function calculaIdade(){
 export default function AboutMe(){
     return(
         <>
-            <div className=" grid grid-rows-[20px_1fr_20px] min-w-full h-max items-center justify-items-center p-5 mt-4">
-                <section id="sobre" className='min-w-full grid gap-8 row-start-2 bg-almostWhite items-center sm:items-start ruido rounded-2xl'>
+            <div className=" grid grid-rows-[20px_1fr_20px] min-w-full h-max items-center justify-items-center p-0.5 lg:p-5 mt-4">
+                <section className='min-w-full grid gap-8 row-start-2 bg-almostWhite items-center sm:items-start ruido rounded-2xl'>
                     <div className='relative text-center select-none text-#dddddd'>
                         <h1
                             id="sobre"

@@ -1,22 +1,14 @@
-import {html, sass, javascript, figma} from '../HardSkills'
+import {nextJs, nodeJs, tailwind, typeScript} from '../HardSkills'
 
 export const content = [
     { 
       id:1,
-      img: 'projeto.jpg',
-      title: "Projeto #1",
-      skills: [html, sass, javascript, figma],
-      github: 'https://github.com/HumbertoGaldino',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend eu ante at finibus. Curabitur luctus tempor velit, nec viverra turpis egestas et. Cras ut.'
+      img: 'projeto1.png',
+      title: "Portfólio",
+      skills: [nodeJs ,nextJs, typeScript, tailwind, ],
+      github: 'https://github.com/HumbertoGaldino/humbertogaldino.dev',
+      description: 'Aplicação fullstack com NextJs e Node.js, exibindo projetos em uma interface responsiva.'
     },
-    {
-      id:2,
-      img: 'projeto.jpg',
-      title: 'Projeto #2',
-      skills: [html, sass, javascript, figma],
-      github: 'https://github.com/HumbertoGaldino',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris faucibus, ligula id luctus cursus, tortor dolor tempor tortor, id tincidunt massa risus id ligula. Sed.'
-    }
   ];
 
   

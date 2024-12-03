@@ -5,7 +5,7 @@ export const content = [
     },
     {
       label: 'Sobre mim',
-      url:'#sobre'
+      url:'/#sobre'
     },
     {
       label: 'Portfólio',

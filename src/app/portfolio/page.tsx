@@ -6,8 +6,8 @@ import Card from '../../components/Card'
 export default function Projects() {    
     return (
       <>
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center gap-16 lg:pb-20  sm:p-11">
-          <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full h-full">
+        <div className="container grid grid-rows-[20px_1fr_20px] min-w-full h-min items-center justify-items-center sm:p-2 sm:pt-2 pb-0">
+          <main className="grid grid-cols-1 gap-8 row-start-2 items-center min-w-full max-h-full sm:items-start">
             <Portfolio />
             <Card />
           </main>

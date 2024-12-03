@@ -14,16 +14,16 @@ export default function Card() {
 
   return (
     <>
-      <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-16 mt-3 min-w-full h-fit">
+      <div className="flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-10 mt-3 w-full pb-10">
         {content.map((Projeto) => (
           <>
-            <div key={Projeto.id} className="flip-card w-96 h-60">
-              <div id={`flip-card-inner-${Projeto.id}`} className="flip-card-inner w-96 h-60 relative">
+            <div key={Projeto.id} className="flip-card w-full h-48 md:w-96 md:h-60">
+              <div id={`flip-card-inner-${Projeto.id}`} className="flip-card-inner w-full h-48 md:w-96 md:h-60 relative">
                 <div className="front absolute w-full h-full ease-in-out duration-500 hover:scale-110">
-                  <div className="w-full h-full flex flex-col justify-center items-center rounded-lg bg-cover grayscale transition duration-500 hover:grayscale-0" style={{ backgroundImage: `url('${Projeto.img}')` }}>
-                    <h1 className='text-4xl italic font-bold text-yellow drop-shadow-2xl'>{Projeto.title}</h1>
+                  <div className="w-full h-full flex flex-col justify-center items-center rounded-lg bg-cover bg-center border-2 border-gray-50 lg:grayscale transition duration-500 lg:hover:grayscale-0" style={{ backgroundImage: `url('${Projeto.img}')` }}>
+                    <h1 className='text-4xl italic font-bold text-white drop-shadow-2xl py-1 px-1.5 bg-black/95 rounded-2xl'>{Projeto.title}</h1>
 
-                    <button onClick={() => handleRotateCard(Projeto.id)} className='mt-3 bg-black/80 rounded-2xl p-1 text-yellow text-xs font-semibold uppercase cursor-pointer'>
+                    <button onClick={() => handleRotateCard(Projeto.id)} className='mt-3 bg-black/95 rounded-2xl p-1 text-yellow text-xs font-semibold uppercase cursor-pointer'>
                       Saiba Mais
                     </button>
                   </div>
@@ -33,7 +33,7 @@ export default function Card() {
                   <div className="w-full h-full p-3 flex flex-col justify-center items-center rounded-lg bg-black" >
                     <h1 className='text-xl italic font-bold text-yellow drop-shadow-2xl'>{Projeto.title}</h1>
                    
-                    <p className='text-center text-lg p-1 mb-8'>{Projeto.description}</p>
+                    <p className='text-center text-xs md:text-base lg:text-lg p-1 mb-8'>{Projeto.description}</p>
 
                     <div className='flex items-start absolute left-5 bottom-5'>
                       <Link href={Projeto.github} target="_blank" className="bg-yellow text-black font-semibold pl-2 pr-2 rounded mr-3">GitHub</Link>
