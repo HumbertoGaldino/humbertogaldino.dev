@@ -37,11 +37,11 @@ export default function AboutMe(){
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center lg:items-start p-6 pt-0 md:mt-5 mb-4">
                         <Image
-                            src="/about.png"
+                            src="public/about.png"
                             width={0}
                             height={0}
                             sizes="100vw"
-                            alt="Profile Picture"
+                            alt="About me image"
                             
                             className='lg:pl-5 w-full lg:w-11/12'
                         />
