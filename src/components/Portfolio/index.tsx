@@ -9,7 +9,11 @@ export default function Portfolio(){
                 <div className='flex items-center justify-center relative mb-10'>
                     <Image 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         src="2.png"
+=======
+                        src="public/2.png"
+>>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
 =======
                         src="public/2.png"
 >>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
@@ -29,7 +33,11 @@ export default function Portfolio(){
                     <span className='font-["Licorice"] absolute z-50 right-0 text-9xl text-yellow blur-[2px] block'>Portfólio</span>
                     <Image 
 <<<<<<< HEAD
+<<<<<<< HEAD
                         src="3.png"
+=======
+                        src="public/3.png"
+>>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
 =======
                         src="public/3.png"
 >>>>>>> 6698d8c3074efec61067991a75ca38c9004ebc88
