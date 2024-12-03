@@ -42,6 +42,7 @@ export default function AboutMe(){
                             height={0}
                             sizes="100vw"
                             alt="About me image"
+                            placeholder="blur"
                             
                             className='lg:pl-5 w-full lg:w-11/12'
                         />

@@ -13,6 +13,7 @@ export default function Portfolio(){
                         height={0}
                         sizes="100vw"
                         alt="Jornal rasgado"
+                        placeholder="blur"
                         style={{ width: '50%' }}
 
                         className='pl-5 absolute -z-10 -left-16 -bottom-5 lg:-left-20 lg:-bottom-10'
@@ -29,6 +30,7 @@ export default function Portfolio(){
                         height={0}
                         sizes="100vw"
                         alt="Papel rasgado"
+                        placeholder="blur"
                         style={{ width: '50%' }}
 
                         className='pl-5 absolute -z-50 -right-1 -top-8 lg:-right-5 lg:-top-10'
