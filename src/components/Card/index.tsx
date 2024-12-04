@@ -14,7 +14,7 @@ export default function Card() {
 
   return (
     <>
-      <div className="flex flex-row flex-wrap lg:flex-nowrap justify-center items-center gap-10 mt-3 w-full pb-10">
+      <div className="flex flex-wrap flex-row-reverse lg:flex-nowrap justify-center items-center gap-10 mt-3 w-full pb-10">
         {content.map((Projeto) => (
           <>
             <div key={Projeto.id} className="flip-card w-full h-48 md:w-96 md:h-60">

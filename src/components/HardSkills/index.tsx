@@ -1,6 +1,6 @@
 import { RiNextjsFill, RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
 import { FaNodeJs, FaReact, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";
-import { SiSequelize,SiOracle, SiAdobephotoshop, SiSass, SiExpress, SiPrisma, SiMysql, SiPostgresql, SiMongodb, SiStyledcomponents } from "react-icons/si";
+import { SiSqlite, SiSequelize,SiOracle, SiAdobephotoshop, SiSass, SiExpress, SiPrisma, SiMysql, SiPostgresql, SiMongodb, SiStyledcomponents } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { BiLogoTypescript } from "react-icons/bi";
 import { FiFigma } from "react-icons/fi";
@@ -32,6 +32,7 @@ export const postgres =<SiPostgresql title='PostgreSQL' style={{color:'#376696'}
 export const mongo =<SiMongodb title='MongoDB' style={{color:'#4a9d4b'}}/>;
 export const git =<FaGitAlt title='Git' style={{color:'#f05539'}}/>;
 export const gitHub =<FaGithub title='GitHub' style={{color:'#ffffff'}}/>;
+export const sqlite = <SiSqlite title='SQLite' style={{color:'#08668e'}}/>/>
 
 export const skills = [
     {
