@@ -14,14 +14,14 @@ export default function Card() {
 
   return (
     <>
-      <div className="flex flex-wrap flex-row-reverse lg:flex-nowrap justify-center items-center gap-10 mt-3 w-full pb-10">
+      <div className="flex flex-wrap flex-row justify-center items-center gap-10 mt-3 w-full pb-10">
         {content.map((Projeto) => (
           <>
             <div key={Projeto.id} className="flip-card w-full h-48 md:w-96 md:h-60">
               <div id={`flip-card-inner-${Projeto.id}`} className="flip-card-inner w-full h-48 md:w-96 md:h-60 relative">
                 <div className="front absolute w-full h-full ease-in-out duration-500 hover:scale-110">
                   <div className="w-full h-full flex flex-col justify-center items-center rounded-lg bg-cover bg-center border-2 border-gray-50 lg:grayscale transition duration-500 lg:hover:grayscale-0" style={{ backgroundImage: `url('${Projeto.img}')` }}>
-                    <h1 className='text-4xl italic font-bold text-white drop-shadow-2xl py-1 px-1.5 bg-black/95 rounded-2xl'>{Projeto.title}</h1>
+                    <h1 className='text-3xl italic font-bold text-white drop-shadow-2xl py-1 px-1.5 bg-black/95 rounded-2xl'>{Projeto.title}</h1>
 
                     <button onClick={() => handleRotateCard(Projeto.id)} className='mt-3 bg-black/95 rounded-2xl p-1 text-yellow text-xs font-semibold uppercase cursor-pointer'>
                       Saiba Mais

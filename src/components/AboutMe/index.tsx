@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import aboutImg from '../../../public/about.webp'
+
 
 function calculaIdade(){ 
     const dataAtual = new Date();
@@ -37,7 +39,7 @@ export default function AboutMe(){
                     
                     <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center lg:items-start p-6 pt-0 md:mt-5 mb-4">
                         <Image
-                            src="about.webp"
+                            src={aboutImg}
                             width={0}
                             height={0}
                             sizes="100vw"

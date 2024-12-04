@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import SwiperSkills from '../SwiperSkills'
+import imageProfile from '../../../public/1.webp';
 
 export default function Main(){
     return(
@@ -19,7 +20,7 @@ export default function Main(){
                     </div>
                     <div className="min-w-full h-full justify-center items-center order-1 lg:order-2">
                         <Image
-                            src="1.webp"
+                            src={imageProfile}
                             width={0}
                             height={0}
                             sizes="100vw"
