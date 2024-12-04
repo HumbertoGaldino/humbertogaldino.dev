@@ -32,7 +32,7 @@ export const postgres =<SiPostgresql title='PostgreSQL' style={{color:'#376696'}
 export const mongo =<SiMongodb title='MongoDB' style={{color:'#4a9d4b'}}/>;
 export const git =<FaGitAlt title='Git' style={{color:'#f05539'}}/>;
 export const gitHub =<FaGithub title='GitHub' style={{color:'#ffffff'}}/>;
-export const sqlite = <SiSqlite title='SQLite' style={{color:'#08668e'}}/>/>
+export const sqlite = <SiSqlite title='SQLite' style={{color:'#08668e'}}/>;
 
 export const skills = [
     {
