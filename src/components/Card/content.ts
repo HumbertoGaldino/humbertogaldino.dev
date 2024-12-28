@@ -3,7 +3,7 @@ import {css3, electron, express, git, html, nextJs, nodeJs, react, sqlite, style
 export const content = [
   {  
     id:7,
-    img: 'projeto7.png',
+    img: 'projeto7.jpg',
     title: "NFT Preview Card Component",
     skills: [html, css3, git],
     github: 'https://github.com/HumbertoGaldino/NFT-preview-card-component',
