@@ -2,6 +2,14 @@ import {css3, electron, express, git, html, nextJs, nodeJs, react, sqlite, style
 
 export const content = [
   {  
+    id:7,
+    img: 'projeto7.png',
+    title: "NFT Preview Card Component",
+    skills: [html, css3, git],
+    github: 'https://github.com/HumbertoGaldino/NFT-preview-card-component',
+    description: 'Projeto de estudo para o desafio "NFT Preview Card Component" do Frontend Mentor'
+  },
+  {  
     id:6,
     img: 'projeto6.png',
     title: "Rotion - App Desktop",
